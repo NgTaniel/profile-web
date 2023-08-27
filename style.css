@@ -15,16 +15,13 @@ i{
     animation: animate 5s linear infinite;
 }
 
-i:nth-child(4n+1){
-    background: linear-gradient(transparent, #53789E);
-}
-i:nth-child(4n+2){
+i:nth-child(3n+1){
     background: linear-gradient(transparent, #92BAD2);
 }
-i:nth-child(4n+3){
+i:nth-child(3n+2){
     background: linear-gradient(transparent, #C5E2F7);
 }
-i:nth-child(4n+4){
+i:nth-child(3n+3){
     background: linear-gradient(transparent, #395877);
 }
 
@@ -35,7 +32,7 @@ i:nth-child(4n+4){
     }
     100%
     {
-        transform: translateY(calc(220vh + 1800px));
+        transform: translateY(calc(220vh + 2000px));
     }
 }
 
