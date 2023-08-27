@@ -1,0 +1,375 @@
+body{
+    background-color:#000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0;
+    /* background-image:url(images/icegif-695.gif); background-repeat:no-repeat; */
+    /* background-position:center; */
+}
+
+i{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:linear-gradient(transparent, #fff);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    animation: animate 5s linear infinite;
+}
+
+i:nth-child(4n+1){
+    background: linear-gradient(transparent, #53789E);
+}
+i:nth-child(4n+2){
+    background: linear-gradient(transparent, #92BAD2);
+}
+i:nth-child(4n+3){
+    background: linear-gradient(transparent, #C5E2F7);
+}
+i:nth-child(4n+4){
+    background: linear-gradient(transparent, #395877);
+}
+
+@keyframes animate{
+    0%
+    {
+        transform: translateY(-200px);
+    }
+    100%
+    {
+        transform: translateY(calc(220vh + 1500px));
+    }
+}
+
+.profile{
+    /* display:inline-flex; */
+    font-family:"Lucida Handwriting", cursive;
+    color: #D534CF;
+    /* text-align:; */
+    position:relative;
+
+    /* text-align: center; */
+    width:80%;
+    height:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.profile h2{
+    font-family:"Lucida Handwriting", cursive;
+    font-weight:600;
+    text-align: center;
+    color: #D534CF;
+    
+    text-transform:uppercase;
+    letter-spacing:0.2em;
+}
+
+#profile-header{
+    /* position:relative; */
+
+    background-color:rgba(93,19,90);
+    margin-top: 20px;
+}
+
+.details{
+    font-weight:400;
+    margin-left:30%;
+}
+
+.hobby-list{
+    color: #F56040;
+    font-family:"Lucida Handwriting", cursive;
+    /* border: 5px rgba(244,157,38) solid; */
+    width:800px;
+    height:275px;
+    margin:auto;
+    position:relative;
+    width:80%;
+    height:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.hobby-list h2{
+    font-family:"Lucida Handwriting", cursive;
+    font-weight:600;
+    text-align: center;
+
+    /* margin-left:40%; */
+    text-transform:uppercase;
+    letter-spacing:0.2em;
+}
+
+.list{
+    font-weight:400;
+    /* margin:auto; */
+    margin-left:30%;
+}
+
+#hobby-header{
+    /* position:relative; */
+    background-color: #5D3B13;
+    /* background-color: rgba(244,157,38); */
+}
+
+#piano-header{
+    /* position:relative; */
+
+    background-color: #135D16;
+}
+
+.piano-list{
+    font-family:"Lucida Handwriting", cursive;
+    position:relative;
+    color:#34D53A;
+    width:80%;
+    height:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.piano{
+    font-weight:400;
+    margin-left:30%;
+}
+
+.piano-list h2{
+    font-family:"Lucida Handwriting", cursive;
+    font-weight:600;
+    text-align: center;
+
+    /* margin-left:40%; */
+    text-transform:uppercase;
+    letter-spacing:0.2em;
+}
+
+#minecraft-header{
+    /* position:relative; */
+    /* font-family:"Lucida Handwriting", cursive; */
+    background-color: #13355D;
+    /* background-color: rgba(208,55,108); */
+    color: aqua;
+}
+
+.row{
+    position:relative;
+    display: flex;
+}
+
+.column{
+    position:relative;
+    flex: 25%;
+    padding: 3px;
+}
+
+.minecraft-class{
+    width:80%;
+    height:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.minecraft-class h2{
+    font-family:"Lucida Handwriting", cursive;
+    font-weight:600;
+    text-align: center;
+    position:relative;
+
+    /* margin-left:40%; */
+    text-transform:uppercase;
+    letter-spacing:0.2em;
+
+}
+
+.fact p{
+    text-align: center;
+    position:relative;
+    font-family:"Lucida Handwriting", cursive;
+}
+
+.mc h3{
+    font-family:"Lucida Handwriting", cursive;
+    text-align: center;
+    position:relative;
+
+    /* margin-left:40%; */
+    text-transform:uppercase;
+    letter-spacing:0.2em;
+}
+
+#contact-header{
+    /* font-family:"Lucida Handwriting", cursive; */
+    position:relative;
+    background-color: #37D09B;
+    color: #000;
+}
+
+.contact-class h2{
+    font-family:"Lucida Handwriting", cursive;
+    font-weight:600;
+    text-align: center;
+
+    /* margin-left:40%; */
+    text-transform:uppercase;
+    letter-spacing:0.2em;
+}
+.contact-class p{
+    font-family:"Lucida Handwriting", cursive;
+    text-align: center;
+    position:relative;
+}
+.contact-class{
+    width:80%;
+    height:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.facebook{
+    font-size:64px;
+    color:#4267B2;
+    transition: color 0.2s;
+    text-decoration:none;
+    text-align: center;
+    margin:10%;
+    /* margin-left:30%; */
+    /* margin:0 100px; */
+    width:100%;
+    /* position:relative; */
+
+
+}
+.facebook:hover{
+    color: #000;
+    text-decoration:none;
+
+}
+.instagram{
+    font-size:64px;
+    color:#E1306C;
+    transition: color 0.2s;
+    text-decoration:none;
+    text-align: center;
+    width:100%;
+    /* position:relative;
+    top:calc(50% - 10px); */
+    margin:10%;
+    /* position:relative; */
+
+    /* margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    height:30%;
+    width:30%; */
+    /* margin:0 10px; */
+
+}
+.instagram:hover{
+    color:#F56040;
+}
+.discord{
+    font-size:64px;
+    color:#7289DA;
+    transition: color 0.2s;
+    text-decoration:none;
+    text-align: center;
+    width:100%;
+    margin:10%;
+    /* position:relative; */
+}
+.discord:hover{
+    color:#282b30
+}
+.github{
+    font-size:64px;
+    color:#333;
+    transition: color 0.2s;
+    text-decoration:none;
+    text-align: center;
+    width:100%;
+    margin:10%;
+    /* position:relative; */
+
+}
+.github:hover{
+    color:#f5f5f5
+}
+
+.nat-profile img{
+    position:relative;
+    border-radius:50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    height:30%;
+    width:30%;
+}
+
+
+#navbar{
+    /* position:fixed; */
+    /* margin-top: -10px; */
+    font-family:"Lucida Handwriting", cursive;
+    position:relative;
+    background-color: #660000;
+    color:azure;
+    width:100%;
+    height:100%;
+}
+
+#navbar ul{
+    padding:30px;
+    margin:15px;
+    list-style:none;
+}
+
+#navbar li{
+    display:inline;
+    margin-left:5%;
+    padding-top:10px;
+    position:relative;
+}
+
+.section a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    padding-bottom:5px;
+}
+
+.section a{
+    background:
+      linear-gradient(
+        to right,
+        rgb(255, 255, 255),
+        rgb(255, 255, 255)
+      ),
+      linear-gradient(
+        to right,
+        rgba(93,19,90),
+        rgba(244,157,38),
+        rgba(208,55,108)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+  }
+
+a:hover{
+    background-size: 0 4px, 100% 4px;
+}
+
+
+/* .section li:first-child{
+    /* background-color: aqua; */
+    
+    /* color:#0F52BA;
+} */
+
+/* .section li:nth-child(2){ */
+    /* background-color: aqua; */
+    /* background-color: aqua; */
+    /* color:#0F52BA;
+} */
