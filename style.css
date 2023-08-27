@@ -2,10 +2,9 @@ body{
     background-color:#000;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin:0;
-    /* background-image:url(images/icegif-695.gif); background-repeat:no-repeat; */
-    /* background-position:center; */
 }
 
+/* rain animation */
 i{
     position:absolute;
     width:100%;
@@ -40,14 +39,11 @@ i:nth-child(4n+4){
     }
 }
 
+/* profile */
 .profile{
-    /* display:inline-flex; */
     font-family:"Lucida Handwriting", cursive;
     color: #D534CF;
-    /* text-align:; */
     position:relative;
-
-    /* text-align: center; */
     width:80%;
     height:80%;
     margin:auto;
@@ -59,14 +55,11 @@ i:nth-child(4n+4){
     font-weight:600;
     text-align: center;
     color: #D534CF;
-    
     text-transform:uppercase;
     letter-spacing:0.2em;
 }
 
 #profile-header{
-    /* position:relative; */
-
     background-color:rgba(93,19,90);
     margin-top: 20px;
 }
@@ -76,10 +69,10 @@ i:nth-child(4n+4){
     margin-left:30%;
 }
 
+/* hobby section */
 .hobby-list{
     color: #F56040;
     font-family:"Lucida Handwriting", cursive;
-    /* border: 5px rgba(244,157,38) solid; */
     width:800px;
     height:275px;
     margin:auto;
@@ -94,27 +87,21 @@ i:nth-child(4n+4){
     font-family:"Lucida Handwriting", cursive;
     font-weight:600;
     text-align: center;
-
-    /* margin-left:40%; */
     text-transform:uppercase;
     letter-spacing:0.2em;
 }
 
 .list{
     font-weight:400;
-    /* margin:auto; */
     margin-left:30%;
 }
 
 #hobby-header{
-    /* position:relative; */
     background-color: #5D3B13;
-    /* background-color: rgba(244,157,38); */
 }
 
+/* piano section */
 #piano-header{
-    /* position:relative; */
-
     background-color: #135D16;
 }
 
@@ -137,17 +124,13 @@ i:nth-child(4n+4){
     font-family:"Lucida Handwriting", cursive;
     font-weight:600;
     text-align: center;
-
-    /* margin-left:40%; */
     text-transform:uppercase;
     letter-spacing:0.2em;
 }
 
+/* minecraft section */
 #minecraft-header{
-    /* position:relative; */
-    /* font-family:"Lucida Handwriting", cursive; */
     background-color: #13355D;
-    /* background-color: rgba(208,55,108); */
     color: aqua;
 }
 
@@ -174,8 +157,6 @@ i:nth-child(4n+4){
     font-weight:600;
     text-align: center;
     position:relative;
-
-    /* margin-left:40%; */
     text-transform:uppercase;
     letter-spacing:0.2em;
 
@@ -191,14 +172,12 @@ i:nth-child(4n+4){
     font-family:"Lucida Handwriting", cursive;
     text-align: center;
     position:relative;
-
-    /* margin-left:40%; */
     text-transform:uppercase;
     letter-spacing:0.2em;
 }
 
+/* contact section */
 #contact-header{
-    /* font-family:"Lucida Handwriting", cursive; */
     position:relative;
     background-color: #37D09B;
     color: #000;
@@ -208,8 +187,6 @@ i:nth-child(4n+4){
     font-family:"Lucida Handwriting", cursive;
     font-weight:600;
     text-align: center;
-
-    /* margin-left:40%; */
     text-transform:uppercase;
     letter-spacing:0.2em;
 }
@@ -232,12 +209,7 @@ i:nth-child(4n+4){
     text-decoration:none;
     text-align: center;
     margin:10%;
-    /* margin-left:30%; */
-    /* margin:0 100px; */
     width:100%;
-    /* position:relative; */
-
-
 }
 .facebook:hover{
     color: #000;
@@ -251,18 +223,7 @@ i:nth-child(4n+4){
     text-decoration:none;
     text-align: center;
     width:100%;
-    /* position:relative;
-    top:calc(50% - 10px); */
     margin:10%;
-    /* position:relative; */
-
-    /* margin-left:auto;
-    margin-right:auto;
-    margin-top:20px;
-    height:30%;
-    width:30%; */
-    /* margin:0 10px; */
-
 }
 .instagram:hover{
     color:#F56040;
@@ -275,7 +236,6 @@ i:nth-child(4n+4){
     text-align: center;
     width:100%;
     margin:10%;
-    /* position:relative; */
 }
 .discord:hover{
     color:#282b30
@@ -288,13 +248,13 @@ i:nth-child(4n+4){
     text-align: center;
     width:100%;
     margin:10%;
-    /* position:relative; */
 
 }
 .github:hover{
     color:#f5f5f5
 }
 
+/* profile image */
 .nat-profile img{
     position:relative;
     border-radius:50%;
@@ -306,10 +266,8 @@ i:nth-child(4n+4){
     width:30%;
 }
 
-
+/* navigation bar + animation */
 #navbar{
-    /* position:fixed; */
-    /* margin-top: -10px; */
     font-family:"Lucida Handwriting", cursive;
     position:relative;
     background-color: #660000;
@@ -360,16 +318,3 @@ i:nth-child(4n+4){
 a:hover{
     background-size: 0 4px, 100% 4px;
 }
-
-
-/* .section li:first-child{
-    /* background-color: aqua; */
-    
-    /* color:#0F52BA;
-} */
-
-/* .section li:nth-child(2){ */
-    /* background-color: aqua; */
-    /* background-color: aqua; */
-    /* color:#0F52BA;
-} */
