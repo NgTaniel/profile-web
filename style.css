@@ -206,7 +206,7 @@ i:nth-child(3n+3){
     text-decoration:none;
     text-align: center;
     margin:5%;
-    width:100%;
+    width:80%;
 }
 .facebook:hover{
     color: #000;
@@ -219,7 +219,7 @@ i:nth-child(3n+3){
     transition: color 0.2s;
     text-decoration:none;
     text-align: center;
-    width:100%;
+    width:80%;
     margin:5%;
 }
 .instagram:hover{
@@ -231,7 +231,7 @@ i:nth-child(3n+3){
     transition: color 0.2s;
     text-decoration:none;
     text-align: center;
-    width:100%;
+    width:80%;
     margin:5%;
 }
 .discord:hover{
@@ -243,7 +243,7 @@ i:nth-child(3n+3){
     transition: color 0.2s;
     text-decoration:none;
     text-align: center;
-    width:100%;
+    width:80%;
     margin:5%;
 
 }
