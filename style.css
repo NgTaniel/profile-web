@@ -35,7 +35,7 @@ i:nth-child(4n+4){
     }
     100%
     {
-        transform: translateY(calc(220vh + 1500px));
+        transform: translateY(calc(220vh + 1800px));
     }
 }
 
