@@ -17,13 +17,13 @@ i{
     margin-right:2%;
 }
 
-i:nth-child(3n){
+i:nth-child(n){
     background: linear-gradient(transparent, #92BAD2);
 }
-i:nth-child(3n+1){
+i:nth-child(2n+1){
     background: linear-gradient(transparent, #53789E);
 }
-i:nth-child(3n+2){
+i:nth-child(2n){
     background: linear-gradient(transparent, #395877);
 }
 
