@@ -13,7 +13,8 @@ i{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 10px;
     animation: animate 5s linear infinite;
-    margin-right:5%;
+    margin-left:2%;
+    margin-right:2%;
 }
 
 i:nth-child(3n){
