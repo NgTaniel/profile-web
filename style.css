@@ -33,7 +33,7 @@ i:nth-child(3n+2){
     }
     100%
     {
-        transform: translateY(calc(200vh + 2360px));
+        transform: translateY(calc(200vh + 2400px));
     }
 }
 

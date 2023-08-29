@@ -20,13 +20,15 @@
                     let drop = document.createElement('i');
                     let size = Math.random() * 2;
                     let posX = Math.floor(Math.random() * window.innerWidth);
-                    let delay = Math.random() * -20;
+                    let posY = Math.floor(Math.random() * window.innerHeight);
+                    let delay = Math.random() * -25;
                     let duration = Math.random() * 6;
 
                     drop.style.width = 0.3 + size + 'px';
                     drop.style.right = posX + 'px';
+                    drop.style.bottom = posY + 'px';
                     drop.style.animationDelay = delay + 's';
-                    drop.style.animationDuration = 1 + duration + 's';
+                    drop.style.animationDuration = 5 + duration + 's';
                     body.appendChild(drop);
                     i++
                 }
