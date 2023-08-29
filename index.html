@@ -13,20 +13,20 @@
 
         <script>
             function rain() {
-                let amount = 50;
+                let amount = 60;
                 let body = document.querySelector('body');
                 let i = 0;
                 while(i < amount) {
                     let drop = document.createElement('i');
-                    let size = Math.random() * 5;
+                    let size = Math.random() * 2;
                     let posX = Math.floor(Math.random() * window.innerWidth);
                     let delay = Math.random() * -20;
-                    let duration = Math.random() * 8;
+                    let duration = Math.random() * 6;
 
                     drop.style.width = 0.3 + size + 'px';
-                    drop.style.left = posX + 'px';
+                    drop.style.right = posX + 'px';
                     drop.style.animationDelay = delay + 's';
-                    drop.style.animationDuration = 2 + duration + 's';
+                    drop.style.animationDuration = 1 + duration + 's';
                     body.appendChild(drop);
                     i++
                 }
@@ -43,7 +43,6 @@
                     <li><a href="#Piano">My Piano Repetoire</a></li>
                     <li><a href="#Minecraft">Some Minecraft Designs</a></li>
                     <li><a href="#Contact">Contact Me</a></li>
-
                 </ul>
             </div>
         </nav>
@@ -59,17 +58,15 @@
                 <br>
                 <h2>A Bit About Me</h2>
                 <div class="details">
+                    <p><strong>Name:</strong> Nathaniel Tan</p>
                     
-                        <p><strong>Name:</strong> Nathaniel Tan</p>
-                        
-                        <p><strong>Age:</strong> 19</p>
-                        
-                        <p><strong>Degree:</strong> &#128187 Computer Science and Mathematics &#10133</p>
-                        
-                        <p><strong>Ethnicity:</strong> Indonesian</p>
-                        
-                        <p><strong>Graduated from:</strong> &#127979 Sydney Technical High School (Consequently being memed for this) &#128540</p>
+                    <p><strong>Age:</strong> 19</p>
                     
+                    <p><strong>Degree:</strong> &#128187 Computer Science and Mathematics &#10133</p>
+                    
+                    <p><strong>Ethnicity:</strong> Indonesian</p>
+                    
+                    <p><strong>Graduated from:</strong> &#127979 Sydney Technical High School (Consequently being memed for this) &#128540</p>    
                 </div>
                 <br>
             </div>
@@ -108,36 +105,34 @@
                 <h2><strong>My Piano Repetoire</strong></h2>
                 <p>
                     <div class="piano">
-                        
-                            <p>Fantasie-Impromptu Opus 66 - Frederic Chopin (1810 - 1849)</p>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Gus4dnQuiGk?si=Jb4Uln03I1vWNQsk" 
-                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                            allowfullscreen></iframe>
-                            <br>
+                        <p>Fantasie-Impromptu Opus 66 - Frederic Chopin (1810 - 1849)</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Gus4dnQuiGk?si=Jb4Uln03I1vWNQsk" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen></iframe>
+                        <br>
 
-                            <p>Reverie - Claude Debussy (1862- 1918)</p>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/_CUC2-S1NMI?si=DHz8YQ4W1VJbIyU0" 
-                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                            allowfullscreen></iframe>
-                            <br>
+                        <p>Reverie - Claude Debussy (1862- 1918)</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/_CUC2-S1NMI?si=DHz8YQ4W1VJbIyU0" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen></iframe>
+                        <br>
 
-                            <p>Sonata in D, Hob XVI: 37 - Joseph Haydn (1732 - 1809)</p>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/NEQ54IBldTE?si=HkYijAhF3xA-vv_Y" 
-                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                            allowfullscreen></iframe>
-                            <br>
+                        <p>Sonata in D, Hob XVI: 37 - Joseph Haydn (1732 - 1809)</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/NEQ54IBldTE?si=HkYijAhF3xA-vv_Y" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen></iframe>
+                        <br>
 
-                            <p>Prelude and Fugue Opus 87 no 5 - Dmitri Shostakovich (1906 - 1975)</p>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/gvC6fVCm9kg?si=r7E-QjeiI1a_0hJm" 
-                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                            allowfullscreen></iframe>
-                            <br>
+                        <p>Prelude and Fugue Opus 87 no 5 - Dmitri Shostakovich (1906 - 1975)</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/gvC6fVCm9kg?si=r7E-QjeiI1a_0hJm" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen></iframe>
+                        <br>
 
-                            <p>Liebestraum (Love Dream) no 3 - Franz Liszt (1811 - 1886)</p>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/MBOa-2b4uQQ?si=TdZcV0NW3ljWsaeu" 
-                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                            allowfullscreen></iframe>
-                        
+                        <p>Liebestraum (Love Dream) no 3 - Franz Liszt (1811 - 1886)</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MBOa-2b4uQQ?si=TdZcV0NW3ljWsaeu" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen></iframe>
                     </div>
                 </p>
                 <br>
@@ -156,29 +151,29 @@
                         <p>Let me know if you like me to make something!</p>
                         <div class="mc">
                             <h3>&#128396<strong>Designing</strong>&#128396</h3>
-                                <div class="row">
-                                    <div class="column">
-                                        <img src="./images/mc1.12.JPG" alt="MCModel1" style="width:100%">
-                                    </div>
-                                    <div class="column">
-                                        <img src="./images/mc1.22.JPG" alt="MCModel1.2" style="width:100%">
-                                    </div>
-                                    <div class="column">
-                                        <img src="./images/mc1.3.JPG" alt="MCModel2" style="width:100%">
-                                    </div>
-                                    <div class="column">
-                                        <img src="./images/mc1.42.JPG" alt="MCModel2.1" style="width:100%">
-                                    </div>
+                            <div class="row">
+                                <div class="column">
+                                    <img src="./images/mc1.12.JPG" alt="MCModel1" style="width:100%">
                                 </div>
+                                <div class="column">
+                                    <img src="./images/mc1.22.JPG" alt="MCModel1.2" style="width:100%">
+                                </div>
+                                <div class="column">
+                                    <img src="./images/mc1.3.JPG" alt="MCModel2" style="width:100%">
+                                </div>
+                                <div class="column">
+                                    <img src="./images/mc1.42.JPG" alt="MCModel2.1" style="width:100%">
+                                </div>
+                            </div>
                             <h3>&#129321<strong>Result</strong>&#129321</h3>
-                                <div class="row">
-                                    <div class="column">
-                                        <img src="./images/mc2.12.JPG" alt="MCModels1" style="width:100%">
-                                    </div>
-                                    <div class="column">
-                                        <img src="./images/mc2.22.JPG" alt="MCModels2" style="width:100%">
-                                    </div>
+                            <div class="row">
+                                <div class="column">
+                                    <img src="./images/mc2.12.JPG" alt="MCModels1" style="width:100%">
                                 </div>
+                                <div class="column">
+                                    <img src="./images/mc2.22.JPG" alt="MCModels2" style="width:100%">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </p>

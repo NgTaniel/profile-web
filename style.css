@@ -1,5 +1,5 @@
 body{
-    background-color:#000;
+    background-color:#000000;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin:0;
 }
@@ -11,23 +11,25 @@ i{
     height:100%;
     background:linear-gradient(transparent, #fff);
     border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 0px;
+    border-bottom-right-radius: 10px;
     animation: animate 5s linear infinite;
     margin-right:5%;
 }
 
-i:nth-child(3n+1){
+i:nth-child(3n){
     background: linear-gradient(transparent, #92BAD2);
 }
-
-i:nth-child(2n+1){
+i:nth-child(3n+1){
+    background: linear-gradient(transparent, #53789E);
+}
+i:nth-child(3n+2){
     background: linear-gradient(transparent, #395877);
 }
 
 @keyframes animate{
     0%
     {
-        transform: translateY(-200px);
+        transform: translateY(-50px);
     }
     100%
     {
