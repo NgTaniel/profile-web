@@ -35,7 +35,7 @@ i:nth-child(2n){
     }
     100%
     {
-        transform: translateY(calc(350vh + 2500px));
+        transform: translateY(calc(350vh + 2650px));
     }
 }
 
