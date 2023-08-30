@@ -352,11 +352,8 @@ i:nth-child(2n){
 }
 .section a:hover::before{
     transform: scale(1.1);
-    box-shadow: 0 0 20px #0c3756;
     background-size: 0 15px, 100% 15px;
 }
 .section a:hover{
     color: white;
-    box-shadow: 0 0 15px #0c3756;
-    text-shadow: 0 0 15px #0c3756;
 }
