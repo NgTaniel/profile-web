@@ -318,7 +318,7 @@ i:nth-child(2n){
     font-family:"Lucida Handwriting", cursive;
     position:fixed;
     z-index:9999;
-    background-color: #0c3756;
+    background-color:#0c3756;
     color:azure;
     width:100%;
     height:100px;
@@ -348,15 +348,15 @@ i:nth-child(2n){
 }
 
 .section a::before{
-  background: #92BAD2;
+    background: #92BAD2;
 }
 a:hover::before{
     transform: scale(1.1);
-  box-shadow: 0 0 20px #0c3756;
+    box-shadow: 0 0 20px #0c3756;
     background-size: 0 15px, 100% 15px;
 }
 a:hover{
     color: white;
-  box-shadow: 0 0 15px #0c3756;
-  text-shadow: 0 0 15px #0c3756;
+    box-shadow: 0 0 15px #0c3756;
+    text-shadow: 0 0 15px #0c3756;
 }
