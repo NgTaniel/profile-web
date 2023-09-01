@@ -11,31 +11,6 @@
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
 
-        <script>
-            function rain() {
-                let amount = 60;
-                let body = document.querySelector('body');
-                let i = 0;
-                while(i < amount) {
-                    let drop = document.createElement('i');
-                    let size = Math.random() * 2;
-                    let posX = Math.floor(Math.random() * window.innerWidth);
-                    let posY = Math.floor(Math.random() * window.innerHeight);
-                    let delay = Math.random() * -25;
-                    let duration = Math.random() * 6;
-
-                    drop.style.width = 0.3 + size + 'px';
-                    drop.style.right = posX + 'px';
-                    drop.style.bottom = posY + 'px';
-                    drop.style.animationDelay = delay + 's';
-                    drop.style.animationDuration = 5 + duration + 's';
-                    body.appendChild(drop);
-                    i++
-                }
-            }
-            rain();
-        </script>
-
         <!-- navigation bar -->
         <nav id="navbar">
             <div class="section">

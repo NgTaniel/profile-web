@@ -1,41 +1,21 @@
 body{
-    background-color:#000000;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(90deg, #69686d, #4f4e52, #1a1a1a, #000000);
+    background-size: 300% 300%;
     margin:0;
+    animation: gradient 12s ease infinite;
     margin-bottom: 10px;
 }
 
-/* rain animation */
-i{
-    position:absolute;
-    width:80%;
-    height:100%;
-    background:linear-gradient(transparent, #fff);
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 10px;
-    animation: animate 5s linear infinite;
-    margin-left:2%;
-    margin-right:2%;
-}
-
-i:nth-child(n){
-    background: linear-gradient(transparent, #92BAD2);
-}
-i:nth-child(2n+1){
-    background: linear-gradient(transparent, #53789E);
-}
-i:nth-child(2n){
-    background: linear-gradient(transparent, #d1e8f9);
-}
-
-@keyframes animate{
-    0%
-    {
-        transform: translateY(-50px);
+/* keyframes for gradient */
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
     }
-    100%
-    {
-        transform: translateY(calc(350vh + 2650px));
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
     }
 }
 
@@ -109,7 +89,7 @@ i:nth-child(2n){
 }
 .profile{
     font-family:"Lucida Handwriting", cursive;
-    color: #dd5bd8;
+    color: #d431ce;
     position:relative;
     width:80%;
     height:80%;
@@ -124,7 +104,7 @@ i:nth-child(2n){
     font-family:"Lucida Handwriting", cursive;
     font-weight:600;
     text-align: center;
-    color: #dd5bd8;
+    color: #d431ce;
     text-transform:uppercase;
     letter-spacing:0.2em;
 }
@@ -132,7 +112,9 @@ i:nth-child(2n){
 #profile-header{
     margin-right:5%;
     width:100%;
-    background-color:#5D135A;
+    background:linear-gradient(-90deg, #f6d5f5, #e29aff, #5d135a, #320d41) ;
+    background-size: 300% 300%;
+    animation: gradient 12s ease infinite;
     margin-top: 20px;
 }
 
@@ -152,7 +134,7 @@ i:nth-child(2n){
     width:30%;
 }
 .hobby-list{
-    color: aqua;
+    color: #2565b1;
     font-family:"Lucida Handwriting", cursive;
     width:800px;
     height:275px;
@@ -181,7 +163,9 @@ i:nth-child(2n){
 }
 
 #hobby-header{
-    background-color: #13355D;
+    background:linear-gradient(90deg, #ccefff, #9adeff, #13355d, #0d3041) ;
+    background-size: 300% 300%;
+    animation: gradient 12s ease infinite;
 }
 
 /* piano section */
@@ -195,13 +179,15 @@ i:nth-child(2n){
     width:25%;
 }
 #piano-header{
-    background-color: #135D16;
+    background:linear-gradient(-90deg, #ccffd0, #9affa1, #135d16, #0d4111) ;
+    background-size:300% 300%;
+    animation:gradient 12s ease infinite;
 }
 
 .piano-list{
     font-family:"Lucida Handwriting", cursive;
     position:relative;
-    color:#34D53A;
+    color:#25b12a;
     width:80%;
     height:80%;
     margin:auto;
@@ -219,7 +205,7 @@ i:nth-child(2n){
 .piano-list h2{
     font-family:"Lucida Handwriting", cursive;
     font-weight:600;
-    text-align: center;
+    text-align:center;
     text-transform:uppercase;
     letter-spacing:0.2em;
 }
@@ -234,8 +220,10 @@ i:nth-child(2n){
     width:30%;
 }
 #minecraft-header{
-    color: #f77c61;
-    background-color: #791b06;
+    color: #f55430;
+    background:linear-gradient(90deg, #ffcdc2, #ff9b86, #791b06, #551204) ;
+    background-size: 300% 300%;
+    animation: gradient 12s ease infinite;
 }
 
 .row{
@@ -283,8 +271,10 @@ i:nth-child(2n){
 /* contact section */
 #contact-header{
     position:relative;
-    background-color: #37D09B;
-    color: #000;
+    background:linear-gradient(-90deg, #d0fff6, #a1ffee, #37d09b, #27927e) ;
+    background-size: 300% 300%;
+    animation: gradient 12s ease infinite;
+    color: #000000;
 }
 
 .contact-class h2{
